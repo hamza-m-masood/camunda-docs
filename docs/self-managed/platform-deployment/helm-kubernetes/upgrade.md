@@ -181,6 +181,37 @@ New:
 zeebeGateway:
 ```
 
+Additionally, with the introduction of the REST API, there are now two ingresses.
+Previously, there was only the old gRPC ingress at `zeebe-gateway.ingress`, which is now:
+
+Old:
+
+```yaml
+zeebe-gateway:
+  ingress:
+    enabled: false
+    # more properties
+```
+
+New:
+
+```yaml
+zeebeGateway:
+  ingress:
+    # Define and enable gRPC ingress; keep in mind it does not support context paths
+    grpc:
+      enabled: true
+      # more properties
+    # Define and enable the REST ingress; this one does support the zeebeGateway.contextPath
+    # parameter out of the box
+    rest:
+      enabled: true
+      # more properties
+```
+
+Note that the new `zeebeGateway.contextPath` is added to deployment path, both for
+management (i.e. port `9600`) and REST (i.e. port `8080`), _even if the ingress it not enabled_.
+
 ### v9.3.0
 
 Camunda Release Cycle: 8.4
