@@ -1,10 +1,10 @@
 ---
 id: user-task-analytics
-title: User Task Analytics
+title: User task analytics
 description: Learn about user task analytics in Optimize.
 ---
 
-In the realm of automated processes, the efficiency and effectiveness of a system are largely determined by how well it supports the user in performing their tasks. Often, businesses find that despite automation, there still exist significant bottlenecks that affect overall productivity. These bottlenecks are commonly rooted in user tasks.
+For automated processes, the efficiency and effectiveness of a system are largely determined by how well it supports the user in performing their tasks. Often, businesses find that despite automation, there still exist significant bottlenecks that affect overall productivity. These bottlenecks are commonly rooted in user tasks.
 
 - **User tasks generating the highest effort:** In an automated environment, certain tasks still demand significant human intervention. These tasks are often complex, error-prone, and time-consuming, leading to a disproportionate allocation of resources.
 - **Optimizing user tasks as a driver for improvement projects:** As organizations continually seek to improve performance, the optimization of user tasks emerges as a primary driver for new improvement projects. Streamlining these tasks can lead to substantial gains in productivity and cost savings.
@@ -17,11 +17,11 @@ Optimizing user tasks offers a comprehensive approach to mitigating the challeng
 - **Analyze time spent on user tasks for assignment:** By measuring and analyzing the time users spend on specific tasks, organizations can identify patterns and outliers. This analysis allows for a better understanding of task complexity and the allocation of resources.
 - **Define targets for user tasks:** With concrete data on how long tasks should take, organizations can set realistic performance targets. These targets provide a benchmark for measuring improvements and can drive accountability and motivation among users.
 
-## Use Cases
+## Use cases
 
 ### Analyze task duration on a heatmap
 
-The user task heatmap is designed to offer stakeholders a panoramic view of all user tasks within a given process. This visual tool synthesizes complex data into an easily interpretable graphical representation, highlighting areas of high activity and potential bottlenecks within the process flow. Optimize allows different aggregations based on the lifecycle of a task. With filters it is possible to restrict evaluated process instances to analyze specific cases.
+The user task heatmap is designed to offer stakeholders a panoramic view of all user tasks within a given process. This visual tool synthesizes complex data into an interpretable graphical representation, highlighting areas of high activity and potential bottlenecks within the process flow. Optimize allows different aggregations based on the lifecycle of a task. With filters it is possible to restrict evaluated process instances to analyze specific cases.
 
 ![user task duration heatmap example](./img/userTask_duration_heatMap.png)
 
@@ -31,8 +31,8 @@ To maintain adherence to Service Level Agreements (SLAs), it is essential to est
 
 ![user task target example](./img/userTask_target_heatMap.png)
 
-### Evaluate Task performance
+### Evaluate task performance
 
-For a thorough understanding of task execution within your processes, it is imperative to examine how tasks are performed both by the nature of the user task itself and by the assignee responsible for completing the task. This detailed analysis enables organizations to assess individual and collective task performance, providing insights into workflow efficiency and productivity. Optimize allows to break down user tasks by user task or assignee for the assigned and unassigned state of the task lifecycle.With filters it is possible to evaluate only a subset of the process instances e.g. to evaluate the performance by country.
+For a thorough understanding of task execution within your processes, it is imperative to examine how tasks are performed both by the nature of the user task itself and by the assignee responsible for completing the task. This detailed analysis enables organizations to assess individual and collective task performance, providing insights into workflow efficiency and productivity. Optimize allows breaking down user tasks by user task or assignee for the assigned and unassigned state of the task lifecycle. With filters, it is possible to evaluate only a subset of the process instances, for example, to evaluate the performance by country.
 
 ![user filtered report example](./img/userTask_report_filters.png)

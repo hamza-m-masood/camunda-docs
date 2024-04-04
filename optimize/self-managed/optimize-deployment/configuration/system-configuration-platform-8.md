@@ -18,7 +18,7 @@ description: "Connection to Camunda 8."
 <span class="badge badge--platform">Camunda 8 Self-Managed only</span>
 
 For more information on multi-tenancy in Camunda 8 Self-Managed environments, refer
-to [this page](./multi-tenancy.md).
+to the [multi-tenancy documentation](./multi-tenancy.md).
 
 To use multi-tenancy, the feature must be enabled across all components.
 
@@ -31,8 +31,8 @@ To use multi-tenancy, the feature must be enabled across all components.
 
 <span class="badge badge--platform">Camunda 8 Self-Managed only</span>
 
-For more information on user task reporting in Camunda 8 Self-Managed, refer to [this page](../../../components/userguide/process-analysis/task-analysis.md).
+For more information on user task reporting in Camunda 8 Self-Managed, refer to the [task analysis documentation](../../../components/userguide/process-analysis/task-analysis.md).
 
 | YAML path                           | Default value | Description                                                          |
 | ----------------------------------- | ------------- | -------------------------------------------------------------------- |
-| ui.userTaskAssigneeAnalyticsEnabled | true          | Enables assignee based analytics in Camunda 8 Self-Managed Optimize. |
+| ui.userTaskAssigneeAnalyticsEnabled | true          | Enables assignee-based analytics in Camunda 8 Self-Managed Optimize. |
