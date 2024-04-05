@@ -30,8 +30,12 @@ Note that the actual values shown in this screenshot don't correspond to any act
 
 ### Removal of Web Modeler's beta API
 
-As of the 8.5 release, the Web Modeler's beta API has been removed. The API was deprecated in 8.3 and is no longer available in 8.5. Use the [Web Modeler v1 API](/apis-tools/web-modeler-api/index.md) instead.
+The Web Modeler's beta API has been removed. The API was deprecated in 8.3 and is no longer available in 8.5. Use the [Web Modeler v1 API](/apis-tools/web-modeler-api/index.md) instead.
 For a migration guide, see the [Web Modeler API documentation](/apis-tools/web-modeler-api/index.md#migrating-from-beta-to-v1).
+
+### Updated SaaS URLs
+
+The SaaS URL is being shortened from cloud.camunda.io to camunda.io. Both URLs will be available until 8.6, after which point there will be an auto-redirect to the shorter URLs. If you have internal whitelisting or active rules for cloud.camunda.io, please transition them to camunda.io. This change primarily affects Console and Modeler. During signup, users are briefly redirected through Accounts (accounts.cloud.camunda.io), which will also be updated.
 
 ## Camunda 8.4
 
